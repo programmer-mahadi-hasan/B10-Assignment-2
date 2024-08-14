@@ -22,9 +22,11 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #000000;
 }
+
 .primary-btn {
     border: none;
     border-radius: 46px;
@@ -57,6 +59,7 @@ body{
     color: #ffffff80;
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 /* ----------------------Header styles---------------------- */
@@ -188,24 +191,30 @@ body{
 }
 
 /* ---------------------main styles------------------------------  */
-
+main{
+    max-width: 1060px;
+}
 /* change your habits section styles */
 .change-your-habits-text {
     text-align: center;
 }
-.habits{
+
+.habits {
     margin-top: 50px;
     display: flex;
     align-items: center;
     gap: 40px;
 }
-.habits-card{
+
+.habits-card {
     text-align: center;
 }
-.habits-card img{
+
+.habits-card img {
     border-radius: 50%;
     margin-bottom: 30px;
 }
+
 .habits-card .habits-card-text .habits-card-title {
     color: #ffffff;
     font-size: 18px;
@@ -217,4 +226,24 @@ body{
     color: #ffffff80;
     font-size: 14px;
     font-weight: 400;
+}
+
+/* run extra mile section styles */
+.run-extra-section {
+    border-radius: 18px;
+    background: #222222;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 32px;
+    padding-right: 54px;
+}
+
+.run-extra-section img {
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
 }

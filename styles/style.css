@@ -22,7 +22,9 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-
+body{
+    background: #000000;
+}
 .primary-btn {
     border: none;
     border-radius: 46px;
@@ -44,11 +46,23 @@
     color: #FFFFFF;
 }
 
+.section-title {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.section-description {
+    color: #ffffff80;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /* ----------------------Header styles---------------------- */
 /* header styles */
 .header-section {
     height: 715px;
-    width: 100%;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
@@ -156,9 +170,11 @@
     background: #e6533c;
     border-radius: 50%
 }
-.video-tutorial-card-text{
+
+.video-tutorial-card-text {
     text-align: left;
 }
+
 .video-tutorial-card-text h1 {
     color: #fafaf9;
     font-size: 24px;
@@ -168,5 +184,37 @@
 .video-tutorial-card-text p {
     color: #efede8a6;
     font-size: 16px;
+    font-weight: 400;
+}
+
+/* ---------------------main styles------------------------------  */
+
+/* change your habits section styles */
+.change-your-habits-text {
+    text-align: center;
+}
+.habits{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.habits-card{
+    text-align: center;
+}
+.habits-card img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.habits-card .habits-card-text .habits-card-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.habits-card .habits-card-text .habits-card-description {
+    color: #ffffff80;
+    font-size: 14px;
     font-weight: 400;
 }

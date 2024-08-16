@@ -126,7 +126,7 @@ body {
     max-width: 1240px;
 }
 
-.banner-text {
+.banner-text-container {
     text-align: left;
 }
 
@@ -144,7 +144,16 @@ body {
     font-weight: 400;
     margin: 28px 0;
 }
-
+.banner-btns{
+    display: flex;
+    gap: 10px;
+}
+.banner-btns button{
+    margin: 0;
+}
+.banner-img-container{
+    position: relative;
+}
 .workout-videos-card {
     box-sizing: border-box;
     border: 1px solid #ffffff1a;
@@ -154,8 +163,8 @@ body {
     position: absolute;
     width: 180px;
     height: 100px;
-    left: 1075px;
-    top: 255px;
+    left: 225px;
+    top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,8 +192,8 @@ body {
     position: absolute;
     width: 200px;
     height: 100px;
-    left: 745px;
-    top: 550px;
+    right: 245px;
+    top: 418px;
 }
 
 .video-tutorial-card .red-circle {

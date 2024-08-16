@@ -14,4 +14,37 @@
         display: block;
         font-size: 30px;
     }
+    /* banner responsive */
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-text-container{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .banner-title{
+        font-size: 36px;
+        width: 285px;
+        margin-left: 0;
+    }
+    .banner-description{
+        max-width: 274px;
+    }
+    .banner-img-container{
+        max-width: 100%;
+        text-align: left;
+        position: relative;
+    }
+    .banner-img-container img{
+        width: 100%;
+    }
+    .banner-img-container .workout-videos-card{
+        top: 50px;
+        left: 200px;
+    }
+    .banner-img-container .video-tutorial-card{
+        left: 0px;
+        top: 230px;
+
+    }
 }

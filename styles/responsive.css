@@ -6,6 +6,12 @@
     *{
         margin: 0 auto;
     }
+    .section-title{
+        font-size: 32px;
+    }
+    .section-description{
+        font-size: 14px;
+    }
     /* header responsive */
     .header-section{
         max-width: 1024px;
@@ -62,4 +68,19 @@
     .habits{
         flex-direction: column;
     }
+    /* run extra section responsive */
+    .run-extra-section{
+        flex-direction: column;
+        position: relative;
+        gap: 30px;
+        top: 300px;
+    }
+    .run-extra-text button{
+        width: 100%;
+    }
+    .run-extra-text {
+        width: 100%;
+    }
+    /* bmi calculation responsive */
+    
 }

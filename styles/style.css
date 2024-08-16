@@ -256,14 +256,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 32px 29px 54px;
+    column-gap: 300px;
+    padding: 48px;
     max-width: 1240px;
 }
-
+.run-extra-text{
+    margin: 0;
+}
 .run-extra-section img {
     border-radius: 18px;
     width: 366px;
     height: 312px;
+    margin: 0;
 }
 
 /* bmi calculator section styles */

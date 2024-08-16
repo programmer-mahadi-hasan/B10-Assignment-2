@@ -103,4 +103,17 @@
     .meet-our-team-members{
         grid-template-columns: repeat(1,1fr);
     }
+    /* footer responsive */
+    footer{
+        max-width: 100%;
+        position: relative;
+        top: 100px;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-content .get-started-1, .get-started-2{
+        max-width: 100%;
+        margin-left: 0;
+    }
 }

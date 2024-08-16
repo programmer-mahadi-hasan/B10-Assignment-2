@@ -6,6 +6,10 @@
     *{
         margin: 0 auto;
     }
+    /* header responsive */
+    .header-section{
+        max-width: 1024px;
+    }
     /* nav responsive */
     .navbar ul{
         display: none;
@@ -37,6 +41,7 @@
     }
     .banner-img-container img{
         width: 100%;
+        height: fit-content;
     }
     .banner-img-container .workout-videos-card{
         top: 50px;
@@ -45,6 +50,16 @@
     .banner-img-container .video-tutorial-card{
         left: 0px;
         top: 230px;
-
+    }
+    /* change your habit responsive */
+    .change-your-habits {
+        position: relative;
+        top: 300px;
+    }
+    .change-your-habits-text .section-title{
+        font-size: 32px;
+    }
+    .habits{
+        flex-direction: column;
     }
 }

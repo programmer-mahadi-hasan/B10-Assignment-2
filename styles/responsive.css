@@ -1,0 +1,17 @@
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+    *{
+        margin: 0 auto;
+    }
+    /* nav responsive */
+    .navbar ul{
+        display: none;
+    }
+    .navbar #hidden-nav{
+        display: block;
+        font-size: 30px;
+    }
+}

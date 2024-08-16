@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness-Website</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <script src="https://kit.fontawesome.com/59fbad568a.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="inter-font">
@@ -18,8 +20,9 @@
                 <li>Contact</li>
                 <li>About</li>
             </ul>
+            <i class="fa-solid fa-bars" id="hidden-nav" style="color: #fbfefd;"></i>
         </nav>
-        <div class="banner-section">
+        <div class="banner-section hide">
             <div class="banner-text">
                 <h1 class="banner-title">Get body in <br> <span class="grey-qo-font">shape</span> & stay <br> healthy
                 </h1>
@@ -44,7 +47,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="hide">
         <section class="change-your-habits">
             <div class="change-your-habits-text">
                 <h1 class="section-title">Change Your Habits</h1>
@@ -134,7 +137,8 @@
                     </div>
                     <div class="calculate-bmi-container">
                         <h2 class="bmi-calculator-chart-title">Calculate your BMI</h2>
-                        <p class="calculate-bmi-description">We believe fitness should be accessible to everyone,everywhere, regardless of income or access to a gym.</p>
+                        <p class="calculate-bmi-description">We believe fitness should be accessible to
+                            everyone,everywhere, regardless of income or access to a gym.</p>
                         <div class="bmi-calculation">
                             <div class="row-1">
                                 <input type="text" placeholder="Height/cm">
@@ -208,7 +212,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="hide">
         <div class="footer-content">
             <div class="text-content">
                 <h1 class="logo-name">Fitness</h1>
@@ -236,8 +240,10 @@
                 </ul>
             </div>
         </div>
-        <hr>
-        <p class="copyright-title">All right reserved @Fitness 2024</p>
+        <div class="copyright-section">
+            <hr>
+            <p class="copyright-title">All right reserved @Fitness 2024</p>
+        </div>
     </footer>
 </body>
 

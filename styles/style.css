@@ -34,6 +34,10 @@ body {
     font-style: italic;
 }
 
+#hidden-nav{
+    display: none;
+}
+
 .primary-btn {
     border: none;
     border-radius: 46px;
@@ -93,6 +97,7 @@ body {
 /* navbar styles */
 .navbar {
     display: flex;
+    align-items: center;
 }
 
 .navbar ul li {
@@ -118,6 +123,7 @@ body {
     align-items: center;
     text-align: center;
     margin-top: 32px;
+    max-width: 1240px;
 }
 
 .banner-text {
@@ -148,8 +154,8 @@ body {
     position: absolute;
     width: 180px;
     height: 100px;
-    left: 1090px;
-    top: 200px;
+    left: 1075px;
+    top: 255px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,8 +183,8 @@ body {
     position: absolute;
     width: 200px;
     height: 100px;
-    left: 760px;
-    top: 500px;
+    left: 745px;
+    top: 550px;
 }
 
 .video-tutorial-card .red-circle {
@@ -209,7 +215,7 @@ body {
 
 /* change your habits section styles */
 .change-your-habits {
-    max-width: 1060px;
+    max-width: 1240px;
 }
 
 .change-your-habits-text {
@@ -240,11 +246,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 54px;
-    padding-right: 32px;
-    max-width: 1060px;
+    padding: 30px 32px 29px 54px;
+    max-width: 1240px;
 }
 
 .run-extra-section img {
@@ -271,7 +274,7 @@ body {
 }
 
 .bmi-calculation-content {
-    max-width: 1060px;
+    max-width: 1240px;
     display: flex;
     gap: 175px;
 }
@@ -344,7 +347,7 @@ select {
 }
 /* meet our team section styles */
 .meet-our-team-section {
-    max-width: 1060px;
+    max-width: 1240px;
 }
 
 .meet-our-team-text {
@@ -426,10 +429,11 @@ select {
 footer {
     background: #ffffff1a;
     margin-top: 88px;
+    padding-bottom: 36px;
 }
 
 .footer-content {
-    max-width: 1060px;
+    max-width: 1240px;
     padding-top: 66px;
     display: flex;
     align-items: center;
@@ -465,9 +469,10 @@ footer {
     font-weight: 400;
     text-decoration: none;
 }
-
+.copyright-section{
+    max-width: 1240px;
+}
 hr {
-    width: 1050px;
     border: 2px solid #ffffff1a;
 }
 

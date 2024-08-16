@@ -82,5 +82,25 @@
         width: 100%;
     }
     /* bmi calculation responsive */
-    
+    .bmi-calculator-section{
+        max-width: 100%;
+        position: relative;
+        top: 200px;
+    }
+    .bmi-calculator-section .bmi-calculation-area .bmi-calculation-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .calculate-bmi-container{
+        padding: 30px;
+    }
+    /* .meet-our-team-section responsive */
+    .meet-our-team-section{
+        max-width: 100%;
+        position: relative;
+        top: 150px;
+    }
+    .meet-our-team-members{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
